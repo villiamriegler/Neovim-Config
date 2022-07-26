@@ -1,7 +1,6 @@
 # Personal Neovim configuration 
 
-Features:
-    * 100% lua
-    * Plugins via: [Packer](https://github.com/wbthomason/packer.nvim)
+* 100% lua
+* Plugins via: [Packer](https://github.com/wbthomason/packer.nvim)
 
 ## Used Plugins
