@@ -22,3 +22,7 @@ Clone this repository into your `.config/nvim/` folder:
 ```
 git clone https://github.com/villiamriegler/Neovim-Config.git ~/.config/nvim/
 ```
+```
+cd lua/villiamriegler/
+```
+Write the plugins.lua file to install all plugins
