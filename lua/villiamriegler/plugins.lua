@@ -55,6 +55,10 @@ return packer.startup(function(use)
     -- NerdTree
     use 'preservim/nerdtree'
 
+    -- Devicons
+    use 'ryanoasis/vim-devicons'
+
+
     -- Automatically set up your configuration after cloning packer.nvim
     if packer_bootstrap then
     require("packer").sync()

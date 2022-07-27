@@ -13,6 +13,7 @@
 * [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 * [Autopairs](https://github.com/windwp/nvim-autopairs)
 * [NerdTree](https://github.com/preservim/nerdtree)
+    * [Devicons](https://github.com/ryanoasis/vim-devicons')
 * [GruvBox](https://github.com/ellisonleao/gruvbox.nvim)
 
 ## To use config
