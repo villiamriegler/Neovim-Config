@@ -31,6 +31,20 @@ return packer.startup(function(use)
     -- Colorschemes (set up in colorschemes.lua)
     use "ellisonleao/gruvbox.nvim" 
     
+    -- Completion
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-cmdline'
+
+    -- Snippets
+    use 'L3MON4D3/LuaSnip'
+    use 'saadparwaiz1/cmp_luasnip'
+
+    -- Lsp
+    use 'neovim/nvim-lspconfig' 
+    use 'williamboman/nvim-lsp-installer'
 
     -- Automatically set up your configuration after cloning packer.nvim
     if packer_bootstrap then
