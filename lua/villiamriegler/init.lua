@@ -3,3 +3,4 @@
 require('villiamriegler.options')
 require('villiamriegler.keymaps')
 require('villiamriegler.plugins')
+require('villiamriegler.colorschemes')

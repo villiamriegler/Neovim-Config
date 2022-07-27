@@ -26,7 +26,10 @@ end
 -- Plugins go here 
 return packer.startup(function(use)
      
-    use "wbthomason/packer.nvim"
+    use "wbthomason/packer.nvim" -- Allowes packer to manage itself 
+
+    -- Colorschemes (set up in colorschemes.lua)
+    use "ellisonleao/gruvbox.nvim" 
     
 
     -- Automatically set up your configuration after cloning packer.nvim
