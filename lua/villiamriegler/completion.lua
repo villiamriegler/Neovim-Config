@@ -1,8 +1,8 @@
 -- call cmp
 local statusOK, cmp = pcall(require, "cmp")
-if not statusOK then 
+if not statusOK then
     vim.notify("Cmp could not be called")
-    return 
+    return
 end
 
 
