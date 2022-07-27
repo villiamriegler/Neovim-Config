@@ -46,6 +46,15 @@ return packer.startup(function(use)
     use 'neovim/nvim-lspconfig' 
     use 'williamboman/nvim-lsp-installer'
 
+    -- Treesitter
+    use {"nvim-treesitter/nvim-treesitter",run = ":TSUpdate",}
+
+    -- Autopairs
+    use {"windwp/nvim-autopairs", config = function() require("nvim-autopairs").setup {} end}
+
+    -- NerdTree
+    use 'preservim/nerdtree'
+
     -- Automatically set up your configuration after cloning packer.nvim
     if packer_bootstrap then
     require("packer").sync()

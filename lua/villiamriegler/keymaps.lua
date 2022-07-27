@@ -25,6 +25,7 @@ vim.g.mapleader = " "
 --inserting a new line 
 keymap("n", "<Leader>o", "o<ESC>", opt)
 keymap("n", "<Leader>O", "O<ESC>", opt)
+keymap("n","<Leader>n", ":NERDTreeToggle<CR>", opt)
 
 
 
