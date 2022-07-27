@@ -58,7 +58,17 @@ return packer.startup(function(use)
     -- Devicons
     use 'ryanoasis/vim-devicons'
 
+    -- Tabs
+    use {
+      'romgrk/barbar.nvim',
+      requires = {'kyazdani42/nvim-web-devicons'}
+    }
 
+    -- lualine
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
     -- Automatically set up your configuration after cloning packer.nvim
     if packer_bootstrap then
     require("packer").sync()

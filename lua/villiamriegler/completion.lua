@@ -6,7 +6,6 @@ if not statusOK then
 end
 
 
-
 local kind_icons = {
   Text = "",
   Method = "m",
