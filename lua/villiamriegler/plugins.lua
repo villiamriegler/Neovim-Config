@@ -22,7 +22,6 @@ end
 
 
 
-
 -- Plugins go here 
 return packer.startup(function(use)
      
@@ -69,6 +68,18 @@ return packer.startup(function(use)
       'nvim-lualine/lualine.nvim',
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
+
+    -- Telescope
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    -- or                            , branch = '0.1.x',
+      requires = { {'nvim-lua/plenary.nvim'} }
+    }
+    use { "nvim-telescope/telescope-file-browser.nvim" }
+
+    -- Dashboard
+    use {'glepnir/dashboard-nvim'}
+
     -- Automatically set up your configuration after cloning packer.nvim
     if packer_bootstrap then
     require("packer").sync()
