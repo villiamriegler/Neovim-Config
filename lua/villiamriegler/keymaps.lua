@@ -27,6 +27,11 @@ keymap("n", "<Leader>o", "o<ESC>", opt)
 keymap("n", "<Leader>O", "O<ESC>", opt)
 keymap("n","<Leader>n", ":NERDTreeToggle<CR>", opt)
 
+--Navigating buffers
+keymap("n", "gn", ":bn<CR>",opt)
+keymap("n", "gp", ":bp<CR>",opt)
+keymap("n", "bc", ":NERDTreeClose | BufferClose<CR>",opt)
+
 
 
 
